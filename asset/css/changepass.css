@@ -1,0 +1,90 @@
+
+
+.change-pass {
+    width: 100%;
+    padding: 0 2rem;
+    min-height: 100vh;
+    height: 100%;
+    background-image: url(../img/Illustration.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.change-pass .close-btn {
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.change-pass .close-btn svg {
+    cursor: pointer;
+}
+
+.change-pass .left h1 {
+    font-family: gillroy;
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.change-pass .right form {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.change-pass .right form .form-label {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1rem;
+    color: #6d6e71;
+    padding-left: 1.5rem;
+}
+
+.change-pass .right form .form-control {
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+}
+
+.change-pass .right form .confirm-btn {
+    background-color: #ffde17;
+    border-radius: .5rem;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.change-pass .right form .confirm-btn button {
+    background-color: #ffde17;
+    border: none;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .change-pass .right {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .change-pass .left h1 {
+        font-family: gillroy;
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+    .change-pass {
+        width: 100%;
+        padding: 0 2rem;
+        min-height: 20rem;
+        background-image: url(../img/Illustration.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .change-pass .left h1 {
+        font-family: gillroy;
+        font-size: 3rem;
+    }
+}

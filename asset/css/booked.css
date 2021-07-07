@@ -1,0 +1,201 @@
+ 
+
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ @font-face {
+    font-family: gilroy;
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+
+
+
+
+
+
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+ body {
+    background-image: url(../img/ill3.png);
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+    
+ }
+
+ .sec {
+     width: 95%;
+     margin: 0 auto;
+     min-height: 100%;
+     overflow-x: hidden;
+     padding: .7rem 0;
+ }
+
+ 
+
+ .sec .close {
+     width: 90%;
+     margin: 0 auto;
+     text-align: right;
+     margin-top: 1rem;
+ }
+
+ .sec .close svg {
+     display: inline-block;
+ }
+
+ .sec .logo {
+     margin-top: 1rem;
+     width: 100%;
+ }
+
+ .sec .logo svg {
+     display: inline-block;
+ }
+
+ .sec .background {
+     position: relative;
+ }
+
+ .sec .main-body {
+     margin-top: 1rem;
+     position: absolute;
+     top: 10rem;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     overflow-x: hidden;
+ }
+
+
+
+ .sec .main-body .main-body-head h1{
+    font-family: gilroy;
+    font-size: 4rem;
+    color: #feb100;
+    letter-spacing: .3rem;
+ }
+
+ .sec .main-body .main-body-head p {
+    font-family: 'Circular Std Book', sans-serif;
+    color: #feb100;
+    font-size: 1rem;
+ }
+
+ .sec .main-body .body {
+     padding: 1rem 0;
+ }
+
+ .sec .main-body .body p {
+    font-family: 'Circular Std Book', sans-serif;
+    color: #e50019;
+    font-size: 1rem;
+ }
+
+ .sec .main-body .btn-book {
+     width: 100%;
+ }
+
+ .sec .main-body .btn-book button {
+     background-color: #feb100;
+     width: 100%;
+     display: block;
+     border: none;
+     padding: .5rem 0;
+     border-radius: 1rem;
+     font-family: 'Circular Std Book', sans-serif;
+     color: #ffffff;
+     font-size: 1.3rem;
+ }
+
+
+ @media screen and (max-width: 769px){
+    .sec .main-body {
+        position: absolute;
+        top: 20rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    .sec {
+        width: 95%;
+        margin: 0 auto;
+        min-height: 100%;
+        overflow-x: hidden;
+        padding: 0;
+    }
+
+    .sec .logo {
+        width: 100%;
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .sec .main-body .btn-book button {
+        background-color: #feb100;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        border: none;
+        padding: .5rem 0;
+    }
+
+    body {
+        background-image: url(../img/ill3.png);
+        width: 100%;
+        min-height: 40rem;
+        
+     }
+ }
+
+ @media screen and (max-width: 340px) {
+    .sec .main-body .main-body-head h1{
+        font-size: 3rem;
+        color: #feb100;
+        letter-spacing: .3rem;
+     }
+
+     .sec {
+        width: 95%;
+        margin: 0 auto;
+        min-height: 100%;
+        overflow-x: hidden;
+        padding: 2rem 0;
+        padding-bottom: 5rem;
+    }
+
+    .sec .logo {
+        width: 100%;
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    body {
+        background-image: url(../img/ill3.png);
+        width: 100%;
+        min-height: 40rem;
+        
+     }
+
+    .sec .close svg {
+        width: 1.2rem !important;
+    }
+ }

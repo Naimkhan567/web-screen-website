@@ -1,0 +1,412 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: gillroy;
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+
+
+
+
+
+
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+.ticket .showcase img {
+    width: 100vw;
+    max-height: 31rem;
+    object-fit: cover;
+}
+
+.ticket .text div {
+    margin: 2rem 0;
+}
+
+.ticket .trip {
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+}
+
+.ticket .trip h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    color: #000;
+}
+
+.ticket .trip h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .date {
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    display: flex;
+    text-align: center;
+}
+
+.ticket .date h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    color: #000;
+}
+
+.ticket .date h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .date .day {
+    margin-left: 15rem;
+}
+
+.ticket .total {
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+}
+
+.ticket .total h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    color: #000;
+}
+
+.ticket .total h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .payment-pending {
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+}
+
+.ticket .payment-pending .payment-btn {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.ticket .payment-pending .payment-btn button {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: #ef4136;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+}
+
+.ticket .payment-pending .info h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+    margin: 2rem 0;
+}
+
+.ticket .payment-pending .details h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .package {
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+}
+
+.ticket .package h5 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #000;
+}
+
+.ticket .package h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    color: #000;
+}
+
+.ticket .package h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .add-on {
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    display: flex;
+}
+
+.ticket .add-on h5 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #000;
+}
+
+.ticket .add-on h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    color: #000;
+}
+
+.ticket .add-on h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .add-on .add-on2 {
+    margin-left: 10rem;
+}
+
+.ticket .user-info {
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+}
+
+.ticket .user-info h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    color: #3f3f3f;
+}
+
+.ticket .user-info h3 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+    margin-bottom: 1rem;
+}
+
+.ticket .user-info h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    color: #3f3f3f;
+}
+
+.ticket .contact {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.ticket .contact h2 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.ticket .contact h5 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fbc108;
+}
+
+
+@media screen  and (max-width: 690px){
+    .ticket .trip h1 {
+        font-size: 3rem;
+    }
+    
+    .ticket .trip h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .date h1 {
+        font-size: 3rem;
+    }
+    
+    .ticket .date h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .total h1 {
+        font-size: 3rem;
+    }
+    
+    .ticket .total h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .payment-pending .payment-btn button {
+        width: 60%;
+    }
+    
+    .ticket .payment-pending .info h4 {
+        font-size: 1.5rem;
+    }
+    
+    .ticket .payment-pending .details h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .package h5 {
+        font-size: 1.5rem;
+    }
+    
+    .ticket .package h1 {
+        font-size: 3rem;
+    }
+    
+    .ticket .package h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .add-on h5 {
+        font-size: 1.5rem;
+    }
+    
+    .ticket .add-on h1 {
+        font-size: 3rem;
+    }
+    
+    .ticket .add-on h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .user-info h1 {
+        font-size: 3rem;
+    }
+    
+    .ticket .user-info h3 {
+        font-size: 1.5rem;
+    }
+    
+    .ticket .user-info h4 {
+        font-size: 1.5rem;
+    }
+
+    .ticket .contact h2 {
+        font-size: 3rem;
+    }
+    
+    .ticket .contact h5 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+@media screen  and (max-width: 488px){
+    .ticket .trip h1 {
+        font-size: 2rem;
+    }
+    
+    .ticket .trip h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .date h1 {
+        font-size: 2rem;
+    }
+    
+    .ticket .date h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .total h1 {
+        font-size: 2rem;
+    }
+    
+    .ticket .total h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .payment-pending .payment-btn button {
+        width: 65%;
+    }
+    
+    .ticket .payment-pending .info h4 {
+        font-size: 1rem;
+    }
+    
+    .ticket .payment-pending .details h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .package h5 {
+        font-size: 1rem;
+    }
+    
+    .ticket .package h1 {
+        font-size: 2rem;
+    }
+    
+    .ticket .package h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .add-on h5 {
+        font-size: 1rem;
+    }
+    
+    .ticket .add-on h1 {
+        font-size: 2rem;
+    }
+    
+    .ticket .add-on h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .user-info h1 {
+        font-size: 2rem;
+    }
+    
+    .ticket .user-info h3 {
+        font-size: 1rem;
+    }
+    
+    .ticket .user-info h4 {
+        font-size: 1rem;
+    }
+
+    .ticket .contact h2 {
+        font-size: 2rem;
+    }
+    
+    .ticket .contact h5 {
+        font-size: 1rem;
+    }
+}
+
+@media screen  and (max-width: 400px) {
+    .ticket .date .day {
+        margin-left: 6rem;
+    }
+
+    .ticket .add-on .add-on2 {
+        margin-left: 5rem;
+    }
+}

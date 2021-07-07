@@ -1,0 +1,218 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+
+
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+
+section .row .left {
+    padding: 0;
+}
+
+section .row .left .background {
+    background-image: url(../img/20b2ef32b8cfe7d90b0a87258d6dd9a8.png);
+    min-height: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+section .row .left .text {
+    position: absolute;
+    bottom: 10%;
+}
+
+section .row .left .text h1 {
+    color: #ffffff;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 0 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+section .col-right2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+section .col-right2 .head-close  {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+section .col-right2 .title {
+    font-family: gilroy;
+    font-size: 3rem;
+    color: #000;
+    padding-bottom: 3rem;
+}
+
+
+section .col-right2 form input {
+    border: 1px solid #c0c0c0;
+    border-radius: .5rem;
+    padding: .5rem 0;
+    padding-left: 1rem;
+}
+
+section .col-right2 form input::placeholder {
+    color: #c0c0c0;
+}
+
+
+section .col-right2 form .middle input {
+    border: 1px solid #c0c0c0;
+    width: 50%;
+    margin-left: auto;
+    border-radius: .5rem;
+}
+
+
+
+section .col-right2 form .middle .group-btn {
+    border: 1px solid #c0c0c0;
+    padding: .2rem .5rem;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+}
+
+section .col-right2 form .middle .group-btn button {
+    padding: 0 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffffff;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1rem;
+    color: #c0c0c0;
+}
+
+section .col-right2 form .middle .group-btn button.active {
+    background-color: #c0c0c0;
+    color: #ffffff;
+}
+
+section .col-right2 form .sign-btn {
+    text-align: center;
+    background-color: #ffde17;
+    border-radius: 1.2rem;
+}
+
+section .col-right2 form .sign-btn button {
+    background-color: #ffde17;
+    color: #000;
+    border: none;
+    padding: 1rem 3rem;
+    font-family: gilroy;
+    font-size: 1.3rem;
+}
+
+section .col-right2 .foot {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+section .col-right2 .foot p {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.4rem;
+    color: #868686;
+}
+
+section .col-right2 .foot p a {
+    text-decoration: none;
+    color: #e13423;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    section .row .left .background {
+        background-image: url(../img/20b2ef32b8cfe7d90b0a87258d6dd9a8.png);
+        min-height: 100%;
+        height: 15rem;
+    }
+
+    section .row .left .text {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+    
+    section .row .left .text h1 {
+        color: #ffffff;
+        font-family: 'Circular Std Book', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    section .col-right2{
+        width: 95%;
+    }
+
+    section .col-right2 .title {
+        font-family: gilroy;
+        font-size: 2.5rem;
+        color: #000;
+        padding-bottom: 1rem;
+    }
+
+    section .col-right2 form .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+
+    section .col-right2 form .sign-btn button {
+        background-color: #ffde17;
+        color: #000;
+        border: none;
+        padding: .5rem 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    section .col-right2 form .middle .group-btn {
+        margin-right: .5rem;
+    }
+
+    section .col-right2 form .middle .group-btn button {
+        padding: 0 .5rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

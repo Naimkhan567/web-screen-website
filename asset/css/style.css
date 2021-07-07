@@ -1,0 +1,46 @@
+@import url(./signin.css);
+@import url(./signup.css);
+@import url(./changepass.css);
+@import url(./forgetpass.css);
+@import url(./booked.css);
+@import url(./ticket.css);
+
+
+@font-face {
+    font-family: gillroy;
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+
+
+
+
+
+
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

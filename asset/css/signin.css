@@ -1,0 +1,201 @@
+
+@font-face {
+    font-family: gillroy;
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+
+
+
+
+
+
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+section .row {
+    width: 100%;
+}
+
+section .row .left {
+    padding: 0;
+}
+
+section .row .left .background {
+    background-image: url(../img/20b2ef32b8cfe7d90b0a87258d6dd9a8.png);
+    min-height: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+section .row .left .text {
+    position: absolute;
+    bottom: 5%;
+}
+
+section .row .left .text h1 {
+    color: #ffffff;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 5.3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+section .row .col-right {
+    padding-left: 1.5rem ;
+    width: 95%;
+}
+
+section .row .right .sign-up {
+    margin-bottom: 1.5rem;
+}
+
+section .row .right .sign-up p {
+    color: #000;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.2rem;
+}
+
+section .row .right .sign-up p a {
+    text-decoration: none;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-left: 1rem;
+    color: #e13423;
+}
+
+section .row .right .sign-in {
+    padding-top: 3.5rem;
+}
+
+section .row .right .sign-in h1 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+section .row .right .sign-in .media {
+    margin-bottom: 1.8rem;
+}
+
+section .row .right .sign-in .media svg {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+section .row .right .sign-in .media .facebook {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.1rem;
+    color: #868686;
+    font-weight: 300;
+    padding-top: .2rem;
+}
+
+section .row .right .sign-in .media .gmail {
+    margin-left: 2rem;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.1rem;
+    color: #868686;
+    font-weight: 300;
+}
+
+section .row .right .sign-in .or .bar {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-top: .8rem;
+}
+
+section .row .right .sign-in .or {
+    margin: 2rem 0;
+}
+
+section .row .right .sign-in .or p {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1.3rem;
+    color: #868686;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0 .6rem;
+}
+
+.form-check-input:checked {
+    background-color: #868686;
+    border: #868686;
+}
+
+section .row .right .sign-in .foot a {
+    display: inline-block;
+    color: #868686;
+    text-decoration: none;
+}
+
+section .row .right .sign-in .foot .form-check-label {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1rem;
+    color: #868686;
+}
+
+section .row .right .sign-in .form .form-control::placeholder {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 1rem;
+    color: #868686;
+}
+
+section .row .right .sign-in .button {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+section .row .right .sign-in .button button {
+    background-color: #ffde17;
+    color: #ffffff;
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 570px){
+    section .row .left .text h1 {
+        color: #ffffff;
+        font-family: 'Circular Std Book', sans-serif;
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 352px){
+   
+    section .row .left .text h1 {
+        color: #ffffff;
+        font-family: 'Circular Std Book', sans-serif;
+        font-size: 3rem;
+    }
+}
